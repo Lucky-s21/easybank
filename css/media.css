@@ -39,14 +39,14 @@
     .nav .btn {
         display: none;
     }
-    .navbar {
+    .change .navbar {
         position: fixed;
         top: 64px;
         width: 100%;
-        height: 100vh;
-        left: 0;
+        height: 100%;
+        right: 0;
         transition: all .3s ease-in;
-        z-index: 1;
+        /* z-index: 1; */
     }
     .header-list {
         position: fixed;
@@ -381,7 +381,7 @@
     .nav .btn {
         display: none;
     }
-    .navbar {
+    .change .navbar {
         position: fixed;
         top: 64px;
         width: 576px;
@@ -720,7 +720,7 @@
     .nav .btn {
         display: none;
     }
-    .navbar {
+    .change .navbar {
         position: fixed;
         top: 64px;
         width: 100%;
